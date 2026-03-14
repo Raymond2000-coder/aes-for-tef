@@ -12,9 +12,7 @@ The goal is to build a machine learning pipeline capable of estimating the overa
 aes-for-tef/
 ├── README.md
 ├── requirements.txt
-├── notebooks/
-│   └── AES_FOR_TEF.ipynb
-└── images/
+├── AES_FOR_TEF.ipynb
 ```
 
 ## Technologies
@@ -39,6 +37,17 @@ aes-for-tef/
 
 - The repository shares the code and notebook structure.
 - Sensitive or heavy datasets, model checkpoints, and confidential files should not be uploaded publicly.
+
+## Results
+
+The CamemBERT-based model was trained to predict the overall writing score from candidate responses.
+
+The model demonstrates the potential of transformer architectures for automated essay scoring tasks and shows promising predictive performance when combining contextual exam information with candidate responses.
+
+Future work may include:
+- Larger training datasets
+- Improved model architectures
+- Explainability techniques for score interpretation
 
 ## Author
 
